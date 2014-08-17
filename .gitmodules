@@ -1,0 +1,6 @@
+[submodule "public/lib/messaging"]
+	path = public/lib/messaging
+	url = https://github.com/SebastianGlonner/messaging.git
+[submodule "public/lib/minjector"]
+	path = public/lib/minjector
+	url = https://github.com/SebastianGlonner/minjector.git
