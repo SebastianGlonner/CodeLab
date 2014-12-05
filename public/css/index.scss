@@ -1,0 +1,99 @@
+/**
+ * CONTENTS
+ *
+ * SETTINGS
+ * Global              : Globally-available variables and config.
+ *
+ * TOOLS
+ * Mixins              : Useful mixins.
+ *
+ * BASE
+ * Initialize Defaults : Set default styles.
+ *
+ * COMPONENTS
+ * Page-head           : The main page header.
+ *
+ */
+
+
+/************************************************
+ *
+ * SETTINGS
+ *
+ ************************************************/
+
+
+
+/*----------------------------------------------------*\
+
+  Global
+
+\*----------------------------------------------------*/
+
+
+/**
+ * This is the base spacing unit.
+ */
+$BaseSpace : 24px;
+
+
+/**
+ * Font sizes.
+ */
+$F-Size-Jumbo    : 24px;
+$F-Size-Largest  : 20px;
+$F-Size-Larger   : 18px;
+$F-Size-Large    : 16px;
+$F-Size-Default  : 14px;
+$F-Size-Small    : 12px;
+$F-Size-Smaller  : 10px;
+$F-Size-Smallest : 8px;
+$F-Size-Tiny     : 6px;
+
+
+
+/************************************************
+ *
+ * BASE
+ *
+ ************************************************/
+
+
+
+/*----------------------------------------------------*\
+
+  Initialize Defaults
+
+\*----------------------------------------------------*/
+html {
+  font-size: 16px;
+  line-height: $BaseSpace; /* this becomes your base spacing unit */
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  min-height: 0px;
+  min-width: 0px;
+  box-sizing: border-box;
+  margin-bottom: $BaseSpace;
+}
+
+
+
+/************************************************
+ *
+ * COMPONENTS
+ *
+ ************************************************/
+
+
+
+/*----------------------------------------------------*\
+
+  Page-head
+
+\*----------------------------------------------------*/
+.header {
+  background: red;
+}

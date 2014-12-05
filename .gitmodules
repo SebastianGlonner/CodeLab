@@ -4,3 +4,9 @@
 [submodule "public/lib/minjector"]
 	path = public/lib/minjector
 	url = https://github.com/SebastianGlonner/minjector.git
+[submodule "public/lib/jsx"]
+	path = public/lib/jsx
+	url = https://github.com/SebastianGlonner/jsx.git
+[submodule "public/lib/jsDOMx"]
+	path = public/lib/jsDOMx
+	url = https://github.com/SebastianGlonner/jsDOMx.git

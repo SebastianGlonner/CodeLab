@@ -1,0 +1,10 @@
+.listCell {
+	padding: 15px;
+}
+.table td{
+	border: 1px solid black;
+}
+
+#gxList {
+	float: left;
+}

@@ -1,0 +1,33 @@
+{
+  "baseUrl": "./public/",
+  "libUrl" : "./public/lib/",
+
+  "map": {
+    "mainServer": {
+      "/ServerApplication": "/src/ServerApplication"
+    },
+
+    "mainClient": {},
+
+    "/ServerApplication": {
+      "/ServerApi": "/src/ServerApi"
+    },
+
+    "/ServerApi": {
+      "messaging/server": "messaging/bin/server"
+    },
+
+    "./ClientApplication": {
+      "jsx": "jsx/src/jsx",
+      "jsDOMx": "jsDOMx/src/jsDOMx"
+    },
+
+    "/ClientApi": {
+      "messaging/client": "messaging/bin/client"
+    },
+
+    "Router": {
+      "jsx": "jsx/src/jsx"
+    }
+  }
+}

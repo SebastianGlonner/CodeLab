@@ -1,0 +1,49 @@
+{
+  "http": {
+    "host": "localhost",
+    "port": 8888
+  },
+
+  "ws": {
+    "host": "localhost",
+    "port": 8080
+  },
+
+  /**
+   * The absolute base url to this app.
+   * @type {string}
+   */
+  "url": "http://localhost:8888/",
+
+  // Path to the patterns root directory
+  "source": "source",
+
+  // All projects of the code base
+  "projects": [
+    "Base",
+    "MyProject"
+  ],
+
+  // All types of the code base
+  "types": [
+    "Atoms",
+    "Molecules",
+    "Organisms",
+    "Templates",
+    "Pages"
+  ],
+
+  // All natures of the code base
+  "natures": [
+    "Helper",
+    "UI",
+    "Interface",
+    "Implementation"
+  ],
+
+  // A list of all existing tags
+  "tags": [
+    // @TODO: for searching
+  ]
+
+}
